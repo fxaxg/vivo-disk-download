@@ -12,17 +12,46 @@
 
 ## 📦 安装
 
+### 方式一：使用 pip
+
 1. 克隆仓库：
 
 ```bash
-git clone https://github.com/your-username/vivo-cloud-downloader.git
-cd vivo-cloud-downloader
+git clone https://github.com/fxaxg/vivo-disk-download.git
+cd vivo-disk-download
 ```
 
 2. 安装依赖：
 
 ```bash
 pip install httpx
+```
+
+### 方式二：使用 Poetry（推荐）
+
+1. 克隆仓库：
+
+```bash
+git clone https://github.com/fxaxg/vivo-disk-download.git
+cd vivo-disk-download
+```
+
+2. 安装 Poetry（如果尚未安装）：
+
+```bash
+curl -sSL https://install.python-poetry.org | python3 -
+```
+
+3. 使用 Poetry 安装依赖：
+
+```bash
+poetry install
+```
+
+4. 激活虚拟环境：
+
+```bash
+poetry shell
 ```
 
 ## 🚀 获取 Cookie
